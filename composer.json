@@ -1,0 +1,19 @@
+{
+    "name": "iqal/belajar-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "iqalfikri",
+            "email": "haiqal@mexious.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ProgrammerZamanNow\\Belajar\\" : "src/"
+        }
+    }
+}
